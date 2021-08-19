@@ -150,3 +150,9 @@ button img {
     animation: hue 10s infinite linear; /* свойство animation меняющее один градиент-цвет на другой в течении 10 секунд,
                                         и так бесконечно */
 }
+
+.prelative {
+    position: relative;
+    bottom: 530px;
+    left: 10px;
+}
