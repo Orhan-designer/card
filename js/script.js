@@ -1,3 +1,4 @@
+//Первый способ создания кода для звёздного рейтинга
 "use strict";
 
 const ratings = document.querySelectorAll('.rating');

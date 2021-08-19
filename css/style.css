@@ -138,6 +138,7 @@ button img {
     width: 280px;
     height: 65px;
 }
+/* Устанавливаем правило для смены цвета кнопки */
 @keyframes hue {
     from {
         filter: hue-rotate(0deg); /* от */
@@ -151,8 +152,14 @@ button img {
                                         и так бесконечно */
 }
 
-.prelative {
+.prelative img:nth-child(1){
     position: relative;
-    bottom: 530px;
-    left: 10px;
+    bottom: 550px;
+    left: 60px;
+}
+.prelative img:nth-child(2) {
+    position: relative;
+    right: 130px;
+    bottom: 330px;
+    /* opacity: 0; */
 }
